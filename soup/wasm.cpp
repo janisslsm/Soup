@@ -23,7 +23,7 @@
 // - https://github.com/sunfishcode/wasm-reference-manual/blob/master/WebAssembly.md
 // - https://github.com/WebAssembly/spec/tree/20dc91f64194580a542a302b7e1ab1b003d21617/test/core
 //   - Use wast2json from wabt then run `soup wast [file]`
-//   - The following tests pass: address, br, i32, i64, if, f32, f64, labels, loop, memory, memory_copy, memory_grow
+//   - The following tests pass: address, br, br_if, i32, i64, if, f32, f64, labels, loop, memory, memory_copy, memory_grow
 
 NAMESPACE_SOUP
 {
